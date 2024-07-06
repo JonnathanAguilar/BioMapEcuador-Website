@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #F5F5F5;
+}
+
+header {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #228B22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: #228B22;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('https://www.turismo.gob.ec/wp-content/uploads/2017/08/laguna-cajas1.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 4em 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Asegurar que ocupe toda la pantalla menos el header */
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cta {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #1E7A1E;
+}
+
+.cta.register {
+    background-color: #1E90FF;
+}
+
+.cta.register:hover {
+    background-color: #1873CC;
+}
+
+footer {
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    
+    nav ul.show {
+        display: flex;
+    }
+    
+    nav ul li {
+        margin: 1em 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    
+    .hero h2 {
+        font-size: 2em;
+    }
+    
+    .hero p {
+        font-size: 1em;
+    }
+}
