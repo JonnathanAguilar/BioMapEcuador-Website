@@ -1,36 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #27633B;
+    z-index: 1000;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    color: #27633B;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 0px; /* Ajusta según el tamaño del header */
+}
+
+.hero {
+    text-align: center;
+    padding: 2em 0;
 }
 
 .map-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
 }
 
-.info-popup {
-    display: none;
+#controls {
+    margin-bottom: 1rem;
+}
+
+#controls button, #controls input {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#mapa {
+    width: 90%;
+    max-width: 1000px;
+}
+  
+footer {
+    background-color: #323B60;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-}
-
-.info-popup h2, .info-popup p {
-    margin: 10px 0;
-}
-
-.info-popup img {
-    max-width: 100%;
-}
-
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
+    width: 100%;
+    bottom: 0;
 }

@@ -1,45 +1,54 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const mapa = document.getElementById('mapa');
-    const popup = document.getElementById('popup');
-    const popupContent = document.getElementById('popup-content');
+document.addEventListener("DOMContentLoaded", function() {
+    const mapa = document.getElementById("mapa");
+    const zoomInButton = document.getElementById("zoom-in");
+    const zoomOutButton = document.getElementById("zoom-out");
+    const searchBox = document.getElementById("search-box");
 
-    mapa.addEventListener('mouseover', (e) => {
-        if (e.target.tagName === 'path') {
-            e.target.style.fill = '#FFD700'; // Resaltar provincia
+    let currentScale = 1; // Variable para mantener el estado actual de escala
+
+    zoomInButton.addEventListener("click", function() {
+        currentScale += 0.2; // Aumentar la escala actual
+        mapa.style.transform = `scale(${currentScale})`;
+    });
+
+    zoomOutButton.addEventListener("click", function() {
+        if (currentScale > 1) {
+            currentScale -= 0.2; // Disminuir la escala actual si es mayor que 1
+            mapa.style.transform = `scale(${currentScale})`;
         }
     });
 
-    mapa.addEventListener('mouseout', (e) => {
-        if (e.target.tagName === 'path') {
-            e.target.style.fill = ''; // Quitar resaltado
-        }
+    searchBox.addEventListener("input", function() {
+        const searchTerm = searchBox.value.trim().toLowerCase(); // Obtener el término de búsqueda
+
+        // Obtener todas las regiones del mapa
+        const paths = mapa.querySelectorAll("path");
+
+        paths.forEach(path => {
+            const title = path.getAttribute("title").toLowerCase(); // Obtener el título de la región
+
+            if (title.includes(searchTerm)) {
+                path.style.fill = "#FFEB3B"; // Resaltar en amarillo si coincide con el término de búsqueda
+            } else {
+                path.style.fill = "#66BB6A"; // Restaurar el color original si no coincide
+            }
+        });
     });
 
-    mapa.addEventListener('click', (e) => {
-        if (e.target.tagName === 'path') {
-            const provincia = e.target.getAttribute('title');
-            const info = obtenerInfoProvincia(provincia); // Función para obtener información de la provincia
-            popupContent.innerHTML = info;
-            popup.style.display = 'block';
-            popup.style.left = `${e.pageX}px`;
-            popup.style.top = `${e.pageY}px`;
-        }
-    });
+    // Establecer colores iniciales para las regiones del mapa y añadir eventos de mouse
+    const paths = mapa.querySelectorAll("path");
 
-    document.addEventListener('click', (e) => {
-        if (!mapa.contains(e.target) && !popup.contains(e.target)) {
-            popup.style.display = 'none';
-        }
+    paths.forEach(path => {
+        path.style.fill = "#66BB6A"; // Color verde inicial
+        path.addEventListener("mouseover", function() {
+            if (path.style.fill !== "#FFEB3B") { // Cambiar solo si no está resaltado por búsqueda
+                path.style.fill = "#FFEB3B"; // Resaltar en amarillo al pasar el mouse
+            }
+        });
+        path.addEventListener("mouseout", function() {
+            if (path.style.fill !== "#FFEB3B") { // Restaurar solo si no está resaltado por búsqueda
+                path.style.fill = "#66BB6A"; // Volver al color verde al quitar el mouse
+            }
+        });
     });
-
-    function obtenerInfoProvincia(provincia) {
-        // Aquí puedes agregar la información de cada provincia
-        const infoProvincias = {
-            'Azuay': '<h2>Hola Cuenca</h2><img src="/images/condor.png" alt="Imagen de Cuenca">',
-            'Bolívar': '<h2>Información sobre Bolívar</h2>',
-            'Carchi': '<h2>Información sobre Carchi</h2>',
-            // Añade más provincias aquí
-        };
-        return infoProvincias[provincia] || '<h2>Información no disponible</h2>';
-    }
 });

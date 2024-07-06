@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    background-color: #323B60;
 }
 
 header {
@@ -23,6 +26,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.5em 1em;
+    color: #27633B;
+    font-weight: bold;
 }
 
 .logo {
@@ -45,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #228B22;
+    color: #27633B;
     text-decoration: none;
     font-weight: bold;
 }
@@ -59,7 +64,7 @@ nav ul li a:hover {
     font-size: 1.5em;
     background: none;
     border: none;
-    color: #228B22;
+    color: #27633B;
     cursor: pointer;
 }
 
@@ -88,31 +93,32 @@ nav ul li a:hover {
 }
 
 .cta {
-    background-color: #228B22;
-    color: white;
+    background-color: #27633B;
+    color: rgb(248, 248, 248);
     border: none;
     padding: 0.75em 1.5em;
     margin: 0.5em;
     cursor: pointer;
-    border-radius: 0.5em;
+    border-radius: 1em;
     font-size: 1em;
+    font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .cta:hover {
-    background-color: #1E7A1E;
+    background-color: #27633B;
 }
 
 .cta.register {
-    background-color: #1E90FF;
+    background-color: #323B60;
 }
 
 .cta.register:hover {
-    background-color: #1873CC;
+    background-color: #323B60;
 }
 
 footer {
-    background-color: #1E90FF;
+    background-color: #323B60;
     color: white;
     text-align: center;
     padding: 1em 0;
