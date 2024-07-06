@@ -11,7 +11,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
-    color: #fff;
+    color: #27633B;
     margin: 0;
 }
 
@@ -76,7 +76,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 #controls {
