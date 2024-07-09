@@ -8,6 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
             e.target.style.fill = '#FFD700'; // Resaltar provincia
         }
     });
+    mapa.addEventListener('click', (e) => {
+        if (e.target.tagName === 'path') {
+            const provincia = e.target.getAttribute('title');
+            mostrarVentanaEmergente(provincia);
+        }
+    });
 
     mapa.addEventListener('mouseout', (e) => {
         if (e.target.tagName === 'path') {
@@ -18,11 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     mapa.addEventListener('click', (e) => {
         if (e.target.tagName === 'path') {
             const provincia = e.target.getAttribute('title');
-            const info = obtenerInfoProvincia(provincia); // Función para obtener información de la provincia
-            popupContent.innerHTML = info;
-            popup.style.display = 'block';
-            popup.style.left = `${e.pageX}px`;
-            popup.style.top = `${e.pageY}px`;
+            mostrarPopup(provincia, e.pageX, e.pageY);
         }
     });
 
@@ -32,14 +34,51 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    function obtenerInfoProvincia(provincia) {
-        // Aquí puedes agregar la información de cada provincia
-        const infoProvincias = {
-            'Azuay': '<h2>Hola Cuenca</h2><img src="condor.png" alt="Imagen de Cuenca">',
-            'Bolívar': '<h2>Información sobre Bolívar</h2>',
-            'Carchi': '<h2>Información sobre Carchi</h2>',
-            // Añade más provincias aquí
-        };
-        return infoProvincias[provincia] || '<h2>Información no disponible</h2>';
+    function mostrarVentanaEmergente(provincia) {
+        const info = obtenerInfoProvincia(provincia);
+        const ventanaEmergente = window.open('', '_blank', 'width=400,height=400');
+        ventanaEmergente.document.write(`
+            <html>
+            <head>
+                <title>Ventana Emergente - ${provincia}</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f0f0f0;
+                        padding: 20px;
+                    }
+                    h2 {
+                        color: #27633B;
+                    }
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                        margin-top: 10px;
+                    }
+                </style>
+            </head>
+            <body>
+                <h2>${provincia}</h2>
+                <p>${info}</p>
+                <img src="images/condor.png" alt="Imagen de Cóndor">
+            </body>
+            </html>
+        `);
+        ventanaEmergente.document.close();
     }
-});
+
+    function obtenerInfoProvincia(provincia) {
+        // Información específica para cada provincia
+        const infoProvincias = {
+            'Azuay': 'Información detallada sobre la provincia del Azuay.',
+            'Bolívar': 'Información sobre Bolívar.',
+            'Carchi': 'Información sobre Carchi.',
+            // Añadir más provincias aquí
+        };
+        return infoProvincias[provincia] || 'Información no disponible';
+    }
+    }
+);
+
+
