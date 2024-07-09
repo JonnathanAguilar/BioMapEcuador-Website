@@ -13,6 +13,9 @@ body {
     background-color: #ffffff;
     color: #27633B;
     margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -64,7 +67,13 @@ nav ul li a:hover {
 }
 
 main {
-    margin-top: 0px; /* Ajusta según el tamaño del header */
+    margin-top: 60px; /* Ajusta según el tamaño del header */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 60px); /* Ajusta según el tamaño del header */
 }
 
 .hero {
@@ -74,26 +83,17 @@ main {
 
 .map-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 0rem;
-}
-
-#controls {
-    margin-bottom: 1rem;
-}
-
-#controls button, #controls input {
-    margin: 0 5px;
-    padding: 10px;
-    font-size: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 #mapa {
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    height: 100%;
 }
-  
+
 footer {
     background-color: #323B60;
     color: white;
