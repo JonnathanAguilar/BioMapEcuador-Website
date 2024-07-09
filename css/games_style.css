@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://www.10wallpaper.com/wallpaper/1920x1200/1505/Galapagos_Island-Windows_10_Wallpaper_1920x1200.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: #27633B;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #27633B;
+    z-index: 1000;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    color: #27633B;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 0px; /* Ajusta según el tamaño del header */
+}
+
+.hero {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem;
+}
+
+#controls {
+    margin-bottom: 1rem;
+}
+
+#controls button, #controls input {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#mapa {
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para el contenido */
+.content {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    background-color:#27633B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+  
+footer {
+    background-color: #323B60;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
