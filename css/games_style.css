@@ -10,10 +10,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('https://www.10wallpaper.com/wallpaper/1920x1200/1505/Galapagos_Island-Windows_10_Wallpaper_1920x1200.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-image: url('/images/galapagos_islands_background.jpg');
     background-size: cover;
     background-position: center;
-    color: #27633B;
     margin: 0;
 }
 
