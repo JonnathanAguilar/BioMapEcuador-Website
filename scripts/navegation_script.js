@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const inicioBtnaside=document.getElementById('inicioBtn');
 
     inicioBtnaside.addEventListener('click', () => {
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
     });
 
     inicioBtn.addEventListener('click', () => {
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
     });
 
     mapa.addEventListener('mouseover', (e) => {
