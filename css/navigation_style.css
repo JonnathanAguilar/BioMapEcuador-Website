@@ -67,13 +67,15 @@ nav ul li a:hover {
 }
 
 main {
-    margin-top: 60px; /* Ajusta según el tamaño del header */
+    margin-top: 60px;
+    /* Ajusta según el tamaño del header */
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(100vh - 60px); /* Ajusta según el tamaño del header */
+    height: calc(100vh - 60px);
+    /* Ajusta según el tamaño del header */
 }
 
 .hero {
@@ -102,4 +104,80 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Estilos generales del modal */
+.modal {
+    display: none;
+    /* Ocultar el modal por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
+    overflow: auto;
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el botón de cerrar (X) */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo para el contenido dentro del modal */
+.modal-content h2 {
+    color: #27633B;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+aside {
+    color: white; /* Cambia el color de las letras a blanco */
+}
+
+.play-sound-button {
+    background-color: #27633B; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    font-size: 12px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor de puntero */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    align-items: center; /* Alinear contenido verticalmente */
+    position: absolute; /* Posición absoluta */
+    bottom: 15px; /* Espaciado desde la parte inferior */
+    left: 15px; /* Espaciado desde la parte izquierda */
+}
+
+.play-sound-button img {
+    margin-right: 10px; /* Espaciado entre el icono y el texto */
 }
