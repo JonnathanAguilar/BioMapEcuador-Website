@@ -35,7 +35,7 @@
     "Cañar": {
         "OsoHormiguero": {
             "NombreComun": "Oso Hormiguero",
-            "NombreCientifico": "Tamandua tetradactyla.",
+            "NombreCientifico": "Vermilingua.",
             "Habitat": "Bosques tropicales y subtropicales, incluyendo áreas con vegetación densa y árboles altos.",
             "Alimentacion": "Principalmente insectívoro, alimentándose de hormigas y termitas, utilizando su largo hocico y lengua pegajosa para extraerlas de sus nidos.",
             "EsperanzaVida": "Puede vivir hasta 9-15 años en la naturaleza.",
@@ -132,14 +132,14 @@
         }
     },
     "Los Ríos": {
-        "ManatiDelCaribe": {
-            "NombreComun": "Manatí del Caribe",
-            "NombreCientifico": "Trichechus manatus.",
-            "Habitat": "Aguas costeras poco profundas, ríos y estuarios, prefiriendo áreas con abundante vegetación acuática.",
-            "Alimentacion": "Es herbívoro, alimentándose principalmente de pastos marinos y otras plantas acuáticas.",
-            "EsperanzaVida": "En la naturaleza, pueden vivir hasta 40 años, aunque en cautiverio pueden alcanzar edades mayores.",
-            "Amenazas": "Pérdida y degradación de hábitat, colisiones con embarcaciones, contaminación del agua y redes de pesca.",
-            "EstadoConservacion": "Está clasificado como 'Vulnerable' en la Lista Roja de la UICN debido a la disminución de su población y la continua amenaza a su hábitat."
+        "IguanaVerde": {
+            "NombreComun": "Iguana Verde",
+            "NombreCientifico": "Iguana iguana.",
+            "Habitat": "Bosques tropicales, selvas y áreas cercanas a cuerpos de agua.",
+            "Alimentacion": "Es herbívora, alimentándose principalmente de hojas, flores y frutas.",
+            "EsperanzaVida": "En la naturaleza, pueden vivir hasta 20 años o más.",
+            "Amenazas": "Pérdida de hábitat debido a la deforestación y la captura para el comercio de mascotas.",
+            "EstadoConservacion": "Está clasificada como 'Preocupación Menor' en la Lista Roja de la UICN, pero algunas poblaciones locales pueden estar amenazadas por la caza y la destrucción del hábitat."
         }
     },
     "Manabí": {

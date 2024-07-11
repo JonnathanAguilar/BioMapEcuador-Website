@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Cañar": {
                     "OsoHormiguero": {
                         "NombreComun": "Oso Hormiguero",
-                        "NombreCientifico": "Tamandua tetradactyla.",
+                        "NombreCientifico": "Vermilingua.",
                         "Habitat": "Bosques tropicales y subtropicales, incluyendo áreas con vegetación densa y árboles altos.",
                         "Alimentacion": "Principalmente insectívoro, alimentándose de hormigas y termitas, utilizando su largo hocico y lengua pegajosa para extraerlas de sus nidos.",
                         "EsperanzaVida": "Puede vivir hasta 9-15 años en la naturaleza.",
@@ -225,14 +225,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 },
                 "Los Ríos": {
-                    "ManatiDelCaribe": {
-                        "NombreComun": "Manatí del Caribe",
-                        "NombreCientifico": "Trichechus manatus.",
-                        "Habitat": "Aguas costeras poco profundas, ríos y estuarios, prefiriendo áreas con abundante vegetación acuática.",
-                        "Alimentacion": "Es herbívoro, alimentándose principalmente de pastos marinos y otras plantas acuáticas.",
-                        "EsperanzaVida": "En la naturaleza, pueden vivir hasta 40 años, aunque en cautiverio pueden alcanzar edades mayores.",
-                        "Amenazas": "Pérdida y degradación de hábitat, colisiones con embarcaciones, contaminación del agua y redes de pesca.",
-                        "EstadoConservacion": "Está clasificado como 'Vulnerable' en la Lista Roja de la UICN debido a la disminución de su población y la continua amenaza a su hábitat."
+                    "IguanaVerde": {
+                        "NombreComun": "Iguana Verde",
+                        "NombreCientifico": "Iguana iguana.",
+                        "Habitat": "Bosques tropicales, selvas y áreas cercanas a cuerpos de agua.",
+                        "Alimentacion": "Es herbívora, alimentándose principalmente de hojas, flores y frutas.",
+                        "EsperanzaVida": "En la naturaleza, pueden vivir hasta 20 años o más.",
+                        "Amenazas": "Pérdida de hábitat debido a la deforestación y la captura para el comercio de mascotas.",
+                        "EstadoConservacion": "Está clasificada como 'Preocupación Menor' en la Lista Roja de la UICN, pero algunas poblaciones locales pueden estar amenazadas por la caza y la destrucción del hábitat."
                     }
                 },
                 "Manabí": {
@@ -242,13 +242,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         "Habitat": "Océanos y mares, migrando entre áreas de alimentación en aguas frías y áreas de reproducción en aguas tropicales y subtropicales.",
                         "Alimentacion": "Es carnívora, alimentándose principalmente de kril, peces pequeños y plancton, que filtra a través de sus barbas.",
                         "EsperanzaVida": "En la naturaleza, pueden vivir hasta 45-50 años.",
-                        "Amenazas": "Las principales amenazas incluyen la caza histórica, colisiones con embarcaciones, enredo en artes de pesca y la degradación del hábitat.",
+                        "Amenazas": "Caza histórica, colisiones con embarcaciones, enredo en artes de pesca y la degradación del hábitat.",
                         "EstadoConservacion": "Está clasificada como 'Preocupación Menor' en la Lista Roja de la UICN, aunque algunas poblaciones están en recuperación después de la prohibición de la caza comercial."
                     }
                 },
                 "Morona Santiago": {
-                    "GuacamayoRojo": {
-                        "NombreComun": "Guacamayo Rojo",
+                    "GuacamayoBandera": {
+                        "NombreComun": "Guacamayo Bandera",
                         "NombreCientifico": "Ara macao.",
                         "Habitat": "Bosques tropicales húmedos, selvas y áreas con abundante vegetación densa.",
                         "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, nueces, semillas y flores.",
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         "Habitat": "Selvas tropicales, bosques subtropicales, humedales y sabanas, prefiriendo áreas con vegetación densa y acceso a agua.",
                         "Alimentacion": "Es carnívoro, alimentándose principalmente de grandes mamíferos, reptiles y peces.",
                         "EsperanzaVida": "En la naturaleza, pueden vivir entre 12 y 15 años.",
-                        "Amenazas": "Las principales amenazas incluyen la pérdida de hábitat debido a la deforestación, la caza furtiva y el conflicto con humanos.",
+                        "Amenazas": "Pérdida de hábitat debido a la deforestación, la caza furtiva y el conflicto con humanos.",
                         "EstadoConservacion": "Está clasificado como 'Casi Amenazado' en la Lista Roja de la UICN debido a la disminución de su población y la fragmentación de su hábitat."
                     }
                 },
@@ -280,14 +280,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 },
                 "Pastaza": {
-                    "GuacamayoBandera": {
-                        "NombreComun": "Guacamayo Bandera",
-                        "NombreCientifico": "Ara macao.",
-                        "Habitat": "Bosques tropicales húmedos, selvas y áreas con abundante vegetación densa.",
-                        "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, nueces, semillas y flores.",
-                        "EsperanzaVida": "En la naturaleza, pueden vivir entre 40 y 50 años.",
-                        "Amenazas": "Pérdida de hábitat debido a la deforestación, la captura para el comercio de mascotas y la caza.",
-                        "EstadoConservacion": "Está clasificado como 'Preocupación Menor' en la Lista Roja de la UICN, aunque algunas subpoblaciones están en declive debido a las amenazas mencionadas."
+                    "PuercosSahinos": {
+                        "NombreComun": "Puercos Sahinos",
+                        "NombreCientifico": "Tayassuidae.",
+                        "Habitat": "Selvas tropicales y bosques densos.",
+                        "Alimentacion": "Son omnívoros, alimentándose de frutas, raíces, hojas, insectos y pequeños vertebrados.",
+                        "EsperanzaVida": "Puede variar dependiendo de las condiciones del hábitat y las amenazas.",
+                        "Amenazas": "Pérdida de hábitat debido a la deforestación y la caza furtiva para obtener su carne.",
+                        "EstadoConservacion": "Los Tayassuidae en general tienen diferentes estados de stán clasificadas como 'Preocupación Menor', mientras que otras están en peligro debido a la caza y la pérdida de hábitat."
                     }
                 },
                 "Pichincha": {
@@ -393,7 +393,27 @@ document.addEventListener('DOMContentLoaded', () => {
             "Azuay": 'images/condor.png',
             "Bolívar": 'images/oso_anteojos.jpg',
             "Carchi": 'images/jaguar.png',
-            // Añadir más provincias y rutas de imágenes según sea necesario
+            "Cañar": 'images/oso_hormiguero.jpeg',
+            "Chimborazo": "images/llama.jpeg",
+            "Cotopaxi": "images/lobo_paramo.jpeg",
+            "El Oro": "images/mono_aullador.jpeg",
+            "Esmeraldas": "images/delfin_rosado.jpg",
+            "Galápagos": "images/tortuga_gigante.jpeg",
+            "Guayas": "images/manati_caribe.jpeg",
+            "Imbabura": "images/aguila_harpia.jpeg",
+            "Loja": "images/tapir.jpg",
+            "Los Ríos": "images/iguana_verde.jpeg",
+            "Manabí": "images/ballena_jorobada.jpg",
+            "Morona Santiago": "images/guacamayo.jpg",
+            "Napo": "images/jaguar_2.jpg",
+            "Orellana": "images/nutria_gigante_rio.jpg",
+            "Pastaza": "images/puerco_sahino.jpg",
+            "Pichincha": "images/oso_andino.jpg",
+            "Santa Elena": "images/tortuga_verde.jpg",
+            "Santo Domingo de los Tsáchilas": "images/guacamayo_azul_amarillo.jpg",
+            "Sucumbíos": "images/puma.jpg",
+            "Tungurahua": "images/tucan_andino.jpg",
+            "Zamora Chinchipe": "images/pato_torrente.jpg"
         };
 
         return imagenes[provincia] || 'images/default.png'; // Imagen por defecto si no se encuentra la provincia
@@ -403,8 +423,29 @@ document.addEventListener('DOMContentLoaded', () => {
     function obtenerSonidoProvincia(provincia) {
         const sonidos = {
             "Azuay": 'sounds/sonidoCondor.mp3',
-            "Bolívar": 'sounds/sonidoOso.mp3'
-            // Añadir más provincias y rutas de sonidos según sea necesario
+            "Bolívar": 'sounds/sonidoOso.mp3',
+            "Carchi": 'sounds/sonidoCondor.mp3',
+            "Cañar": 'sounds/sonidoCondor.mp3',
+            "Chimborazo": 'sounds/sonidoCondor.mp3',
+            "Cotopaxi": 'sounds/sonidoOso.mp3',
+            "El Oro": 'sounds/sonidoOso.mp3',
+            "Esmeraldas": 'sounds/sonidoOso.mp3',
+            "Galápagos": 'sounds/sonidoOso.mp3',
+            "Guayas": 'sounds/sonidoOso.mp3',
+            "Imbabura": 'sounds/sonidoOso.mp3',
+            "Loja": 'sounds/sonidoOso.mp3',
+            "Los Ríos": 'sounds/sonidoOso.mp3',
+            "Manabí": 'sounds/sonidoOso.mp3',
+            "Morona Santiago": 'sounds/sonidoOso.mp3',
+            "Napo": 'sounds/sonidoOso.mp3',
+            "Orellana": 'sounds/sonidoOso.mp3',
+            "Pastaza": 'sounds/sonidoOso.mp3',
+            "Pichincha": 'sounds/sonidoOso.mp3',
+            "Santa Elena": 'sounds/sonidoOso.mp3',
+            "Santo Domingo de los Tsáchilas": 'sounds/sonidoOso.mp3',
+            "Sucumbíos": 'sounds/sonidoOso.mp3',
+            "Tungurahua": 'sounds/sonidoOso.mp3',
+            "Zamora Chinchipe": 'sounds/sonidoOso.mp3',
         };
 
         return sonidos[provincia]; // Devuelve undefined si no se encuentra la provincia
