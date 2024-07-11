@@ -2,7 +2,7 @@
     "Azuay": {
         "CondorAndino": {
             "NombreComun": "Cóndor andino",
-            "NombreCientifico": "Vultur gryphus",
+            "NombreCientifico": "Vultur gryphus.",
             "Habitat": "Zonas montañosas y páramos de la región andina.",
             "Alimentacion": "Se alimenta principalmente de carroña. También consume pequeños mamíferos, aves y reptiles.",
             "EsperanzaVida": "Pueden vivir hasta 70 años en cautiverio.",
@@ -13,7 +13,7 @@
     "Bolívar": {
         "OsoDeAnteojos": {
             "NombreComun": "Oso de Anteojos",
-            "NombreCientifico": "Tremarctos ornatus",
+            "NombreCientifico": "Tremarctos ornatus.",
             "Habitat": "Bosques nublados y montañosos.",
             "Alimentacion": "Es omnívoro, alimentándose principalmente de frutas, bromelias, insectos, pequeños mamíferos y ocasionalmente presas más grandes como venados.",
             "EsperanzaVida": "Pueden vivir hasta 20-25 años en cautiverio.",
@@ -24,7 +24,7 @@
     "Carchi": {
         "Jaguar": {
             "NombreComun": "Jaguar",
-            "NombreCientifico": "Panthera onca",
+            "NombreCientifico": "Panthera onca.",
             "Habitat": "Selvas tropicales, bosques húmedos y secos.",
             "Alimentacion": "Es carnívoro, se alimenta de mamíferos, aves, reptiles y peces.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 12-15 años.",
@@ -35,7 +35,7 @@
     "Cañar": {
         "OsoHormiguero": {
             "NombreComun": "Oso Hormiguero",
-            "NombreCientifico": "Tamandua tetradactyla",
+            "NombreCientifico": "Tamandua tetradactyla.",
             "Habitat": "Bosques tropicales y subtropicales, incluyendo áreas con vegetación densa y árboles altos.",
             "Alimentacion": "Principalmente insectívoro, alimentándose de hormigas y termitas, utilizando su largo hocico y lengua pegajosa para extraerlas de sus nidos.",
             "EsperanzaVida": "Puede vivir hasta 9-15 años en la naturaleza.",
@@ -46,7 +46,7 @@
     "Chimborazo": {
         "Llama": {
             "NombreComun": "Llama",
-            "NombreCientifico": "Lama glama",
+            "NombreCientifico": "Lama glama.",
             "Habitat": "Zonas de páramo y montañas de los Andes, especialmente en altitudes elevadas.",
             "Alimentacion": "Herbívora, se alimenta principalmente de pastos y vegetación baja.",
             "Amenazas": "Enfermedades como la sarna y la falta de pasto debido a la degradación del hábitat.",
@@ -56,7 +56,7 @@
     },
     "Cotopaxi": {
         "LoboDelParamo": {
-            "NombreComun": "Lobo del páramo",
+            "NombreComun": "Lobo del páramo.",
             "NombreCientifico": "Lycalopex culpaeus reissii",
             "Habitat": "Páramos y zonas montañosas de los Andes, especialmente en altitudes elevadas.",
             "Alimentacion": "Es omnívoro, alimentándose principalmente de pequeños mamíferos, aves, vegetación y frutas.",
@@ -68,7 +68,7 @@
     "El Oro": {
         "MonoAullador": {
             "NombreComun": "Mono Aullador",
-            "NombreCientifico": "Alouatta palliata",
+            "NombreCientifico": "Alouatta palliata.",
             "Habitat": "Bosques tropicales y subtropicales, incluyendo áreas con árboles altos y densa vegetación.",
             "Alimentacion": "Es principalmente herbívoro, alimentándose de hojas, frutas, flores y brotes.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 20-25 años.",
@@ -79,7 +79,7 @@
     "Esmeraldas": {
         "DelfinRosado": {
             "NombreComun": "Delfín Rosado",
-            "NombreCientifico": "Inia geoffrensis",
+            "NombreCientifico": "Inia geoffrensis.",
             "Habitat": "Ríos y lagos, prefiriendo aguas tranquilas y de corriente lenta.",
             "Alimentacion": "Es carnívoro, alimentándose principalmente de peces, aunque también consume crustáceos y ocasionalmente otros animales acuáticos.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 30 años.",
@@ -90,7 +90,7 @@
     "Galápagos": {
         "TortugaGiganteDeGalapagos": {
             "NombreComun": "Tortuga Gigante de Galápagos",
-            "NombreCientifico": "Chelonoidis nigra",
+            "NombreCientifico": "Chelonoidis nigra.",
             "Habitat": "Habita en las Islas Galápagos, prefiriendo áreas de vegetación densa, pastizales y zonas áridas con cactus.",
             "Alimentacion": "Es herbívora, alimentándose principalmente de hierbas, hojas, frutas y cactus.",
             "EsperanzaVida": "Pueden vivir más de 100 años, con algunos individuos alcanzando hasta 150 años en la naturaleza.",
@@ -101,7 +101,7 @@
     "Guayas": {
         "ManatiDelCaribe": {
             "NombreComun": "Manatí del Caribe",
-            "NombreCientifico": "Trichechus manatus",
+            "NombreCientifico": "Trichechus manatus.",
             "Habitat": "Aguas costeras poco profundas, ríos y estuarios, prefiriendo áreas con abundante vegetación acuática.",
             "Alimentacion": "Es herbívoro, alimentándose principalmente de pastos marinos y otras plantas acuáticas.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 40 años, aunque en cautiverio pueden alcanzar edades mayores.",
@@ -112,7 +112,7 @@
     "Imbabura": {
         "AguilaHarpia": {
             "NombreComun": "Águila Harpía",
-            "NombreCientifico": "Harpia harpyja",
+            "NombreCientifico": "Harpia harpyja.",
             "Habitat": "Bosques tropicales y subtropicales, prefiriendo áreas de selva densa y primaria.",
             "Alimentacion": "Es carnívora, alimentándose principalmente de mamíferos arborícolas como monos y perezosos, así como de aves y reptiles.",
             "EsperanzaVida": "En la naturaleza, pueden vivir entre 25 y 35 años.",
@@ -123,7 +123,7 @@
     "Loja": {
         "TapirDeMontaña": {
             "NombreComun": "Tapir de Montaña",
-            "NombreCientifico": "Tapirus pinchaque",
+            "NombreCientifico": "Tapirus pinchaque.",
             "Habitat": "Bosques montanos, páramos y selvas nubladas.",
             "Alimentacion": "Es herbívoro, alimentándose de hojas, ramas, frutas y cortezas.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 25-30 años.",
@@ -134,7 +134,7 @@
     "Los Ríos": {
         "ManatiDelCaribe": {
             "NombreComun": "Manatí del Caribe",
-            "NombreCientifico": "Trichechus manatus",
+            "NombreCientifico": "Trichechus manatus.",
             "Habitat": "Aguas costeras poco profundas, ríos y estuarios, prefiriendo áreas con abundante vegetación acuática.",
             "Alimentacion": "Es herbívoro, alimentándose principalmente de pastos marinos y otras plantas acuáticas.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 40 años, aunque en cautiverio pueden alcanzar edades mayores.",
@@ -145,7 +145,7 @@
     "Manabí": {
         "BallenaJorobada": {
             "NombreComun": "Ballena Jorobada",
-            "NombreCientifico": "Megaptera novaeangliae",
+            "NombreCientifico": "Megaptera novaeangliae.",
             "Habitat": "Océanos y mares, migrando entre áreas de alimentación en aguas frías y áreas de reproducción en aguas tropicales y subtropicales.",
             "Alimentacion": "Es carnívora, alimentándose principalmente de kril, peces pequeños y plancton, que filtra a través de sus barbas.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 45-50 años.",
@@ -153,10 +153,10 @@
             "EstadoConservacion": "Está clasificada como 'Preocupación Menor' en la Lista Roja de la UICN, aunque algunas poblaciones están en recuperación después de la prohibición de la caza comercial."
         }
     },
-    "Morona-Santiago": {
+    "Morona Santiago": {
         "GuacamayoRojo": {
             "NombreComun": "Guacamayo Rojo",
-            "NombreCientifico": "Ara macao",
+            "NombreCientifico": "Ara macao.",
             "Habitat": "Bosques tropicales húmedos, selvas y áreas con abundante vegetación densa.",
             "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, nueces, semillas y flores.",
             "EsperanzaVida": "En la naturaleza, pueden vivir entre 40 y 50 años.",
@@ -167,7 +167,7 @@
     "Napo": {
         "Jaguar": {
             "NombreComun": "Jaguar",
-            "NombreCientifico": "Panthera onca",
+            "NombreCientifico": "Panthera onca.",
             "Habitat": "Selvas tropicales, bosques subtropicales, humedales y sabanas, prefiriendo áreas con vegetación densa y acceso a agua.",
             "Alimentacion": "Es carnívoro, alimentándose principalmente de grandes mamíferos, reptiles y peces.",
             "EsperanzaVida": "En la naturaleza, pueden vivir entre 12 y 15 años.",
@@ -178,7 +178,7 @@
     "Orellana": {
         "NutriaGiganteDeRio": {
             "NombreComun": "Nutria Gigante de Río",
-            "NombreCientifico": "Pteronura brasiliensis",
+            "NombreCientifico": "Pteronura brasiliensis.",
             "Habitat": "Ríos, arroyos y lagos de agua dulce en la cuenca del Amazonas y el Pantanal.",
             "Alimentacion": "Es carnívora, alimentándose principalmente de peces, pero también de crustáceos y pequeños vertebrados.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 10-12 años.",
@@ -189,7 +189,7 @@
     "Pastaza": {
         "GuacamayoBandera": {
             "NombreComun": "Guacamayo Bandera",
-            "NombreCientifico": "Ara macao",
+            "NombreCientifico": "Ara macao.",
             "Habitat": "Bosques tropicales húmedos, selvas y áreas con abundante vegetación densa.",
             "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, nueces, semillas y flores.",
             "EsperanzaVida": "En la naturaleza, pueden vivir entre 40 y 50 años.",
@@ -200,7 +200,7 @@
     "Pichincha": {
         "OsoAndino": {
             "NombreComun": "Oso Andino",
-            "NombreCientifico": "Tremarctos ornatus",
+            "NombreCientifico": "Tremarctos ornatus.",
             "Habitat": "Bosques nublados y páramos de la cordillera de los Andes.",
             "Alimentacion": "Es omnívoro, alimentándose de una variedad de frutas, bambú, hojas, insectos y pequeños vertebrados.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 20-25 años.",
@@ -211,7 +211,7 @@
     "Santa Elena": {
         "TortugaVerde": {
             "NombreComun": "Tortuga Verde",
-            "NombreCientifico": "Chelonia mydas",
+            "NombreCientifico": "Chelonia mydas.",
             "Habitat": "Mares tropicales y subtropicales, frecuentando arrecifes de coral, praderas marinas y áreas costeras arenosas para anidar.",
             "Alimentacion": "Es herbívora, alimentándose principalmente de pastos marinos y algas.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 60-70 años.",
@@ -221,7 +221,7 @@
     },
     "Santo Domingo de los Tsáchilas": {
         "GuacamayoAzulYAmarillo": {
-            "NombreComun": "Guacamayo Azul y Amarillo",
+            "NombreComun": "Guacamayo Azul y Amarillo.",
             "NombreCientifico": "Ara ararauna",
             "Habitat": "Bosques tropicales y subtropicales, prefiriendo áreas de selva densa y zonas ribereñas.",
             "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, nueces, semillas y flores.",
@@ -233,7 +233,7 @@
     "Sucumbíos": {
         "Puma": {
             "NombreComun": "Puma",
-            "NombreCientifico": "Puma concolor",
+            "NombreCientifico": "Puma concolor.",
             "Habitat": "Bosques tropicales, montañas, praderas y desiertos.",
             "Alimentacion": "Es carnívoro, alimentándose de mamíferos de tamaño mediano a grande, como ciervos, guanacos y roedores.",
             "EsperanzaVida": "En la naturaleza, pueden vivir entre 8 y 13 años.",
@@ -244,7 +244,7 @@
     "Tungurahua": {
         "TucanAndino": {
             "NombreComun": "Tucán Andino",
-            "NombreCientifico": "Andigena laminirostris",
+            "NombreCientifico": "Andigena laminirostris.",
             "Habitat": "Bosques montanos y selvas nubladas de los Andes.",
             "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, pero también consume insectos y pequeños vertebrados.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 20 años.",
@@ -255,7 +255,7 @@
     "Zamora Chinchipe": {
         "PatoDeTorrente": {
             "NombreComun": "Pato de Torrente",
-            "NombreCientifico": "Merganetta armata",
+            "NombreCientifico": "Merganetta armata.",
             "Habitat": "Ríos y arroyos de montaña con aguas rápidas y claras.",
             "Alimentacion": "Es carnívoro, alimentándose principalmente de invertebrados acuáticos como insectos y crustáceos.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 10-12 años.",

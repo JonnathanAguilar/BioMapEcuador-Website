@@ -121,16 +121,39 @@ footer {
     overflow: auto;
 }
 
-/* Contenido del modal */
+/* Estilo para el contenido dentro del modal */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-    max-width: 600px;
+    width: 60%;
+    height: 75%;
+    max-width: 1000px;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 12px; /* Tamaño de la fuente */
+}
+
+.modal-content strong {
+    font-weight: bold; /* Asegura que los títulos estén en negrita */
+}
+
+.modal-content br {
+    margin-bottom: 10px; /* Espacio adicional entre líneas */
+}
+
+/* Estilos para el contenedor que alberga la información y la imagen */
+.modal-content-container {
+    text-align: left; /* Alineación del texto a la izquierda */
+    margin-bottom: 20px; /* Espacio inferior para separar la imagen del texto */
+}
+
+/* Estilos para la imagen dentro del modal */
+#modal-image {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 40%; /* Ajustar tamaño máximo */
 }
 
 /* Estilo para el botón de cerrar (X) */
