@@ -88,7 +88,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 95%;
 }
 
 #mapa {
@@ -135,14 +135,6 @@ footer {
     font-size: 12px; /* Tamaño de la fuente */
 }
 
-.modal-content strong {
-    font-weight: bold; /* Asegura que los títulos estén en negrita */
-}
-
-.modal-content br {
-    margin-bottom: 10px; /* Espacio adicional entre líneas */
-}
-
 /* Estilos para el contenedor que alberga la información y la imagen */
 .modal-content-container {
     text-align: left; /* Alineación del texto a la izquierda */
@@ -153,7 +145,7 @@ footer {
 #modal-image {
     display: block;
     margin: 0 auto; /* Centrar horizontalmente */
-    max-width: 40%; /* Ajustar tamaño máximo */
+    max-width: 40%; /* Ajustar tamañoimagen */
 }
 
 /* Estilo para el botón de cerrar (X) */
@@ -204,3 +196,10 @@ aside {
 .play-sound-button img {
     margin-right: 10px; /* Espaciado entre el icono y el texto */
 }
+
+.resaltado {
+    fill: #27633B;
+    stroke:#34FF4B;
+    stroke-width: 3;
+  }
+  

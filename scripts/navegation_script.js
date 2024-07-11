@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const playSoundButton = document.getElementById('playSoundButton');
     const exitIcon = document.getElementById('exitIcon');
     const closeModal = modal.querySelector('.close');
+    const buscarInput = document.getElementById('buscarInput');
+    const btnBuscar = document.getElementById('btnBuscar');
 
     // Función para cerrar el modal
     function cerrarModal() {
@@ -31,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Eventos para resaltar provincia al pasar el mouse
     mapa.addEventListener('mouseover', (e) => {
         if (e.target.tagName === 'path') {
-            e.target.style.fill = '#FFD700'; // Resaltar provincia
+            e.target.style.fill = '#34FF4B'; // Resaltar provincia
         }
     });
 
@@ -48,6 +50,33 @@ document.addEventListener('DOMContentLoaded', () => {
             mostrarVentanaEmergente(provincia);
         }
     });
+
+    btnBuscar.addEventListener('click', resaltarProvincia);
+
+    function resaltarProvincia() {
+        const provincia = buscarInput.value.trim().toLowerCase();
+        const paths = document.querySelectorAll('svg path');
+        let found = false;
+    
+        paths.forEach(path => {
+            if (path.getAttribute('title').toLowerCase() === provincia) {
+                path.classList.add('resaltado');
+                found = true;
+            } else {
+                path.classList.remove('resaltado');
+            }
+        });
+    
+        if (!found && provincia !== "") {
+            alert('Ubicación no encontrada');
+        }
+    
+        if (provincia === "") {
+            paths.forEach(path => {
+                path.classList.remove('resaltado');
+            });
+        }
+    }
 
     function mostrarVentanaEmergente(provincia) {
         const info = obtenerInfoProvincia(provincia);
