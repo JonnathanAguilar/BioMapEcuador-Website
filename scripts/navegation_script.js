@@ -391,7 +391,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function obtenerImagenProvincia(provincia) {
         const imagenes = {
             "Azuay": 'images/condor.png',
-            "Bolívar": 'images/oso.png'
+            "Bolívar": 'images/oso_anteojos.jpg',
+            "Carchi": 'images/jaguar.png',
             // Añadir más provincias y rutas de imágenes según sea necesario
         };
 
