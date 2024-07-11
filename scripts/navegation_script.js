@@ -56,9 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Agregar evento para reproducir sonido
         const playSoundButton = document.getElementById('playSoundButton');
         playSoundButton.onclick = function () {
-            const audio = new Audio('/sounds/sonidoCondor.mp3');
-            audio.play();
-            
+            const audio = new Audio('sounds/sonidoCondor.mp3');
+            audio.play().catch(error => {
+                console.error('Error al reproducir el audio:', error);
+            });
         };
 
         // Agregar evento para cerrar el modal al hacer clic en el icono de salida de emergencia
