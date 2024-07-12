@@ -149,13 +149,13 @@
             "Habitat": "Océanos y mares, migrando entre áreas de alimentación en aguas frías y áreas de reproducción en aguas tropicales y subtropicales.",
             "Alimentacion": "Es carnívora, alimentándose principalmente de kril, peces pequeños y plancton, que filtra a través de sus barbas.",
             "EsperanzaVida": "En la naturaleza, pueden vivir hasta 45-50 años.",
-            "Amenazas": "Las principales amenazas incluyen la caza histórica, colisiones con embarcaciones, enredo en artes de pesca y la degradación del hábitat.",
+            "Amenazas": "Caza histórica, colisiones con embarcaciones, enredo en artes de pesca y la degradación del hábitat.",
             "EstadoConservacion": "Está clasificada como 'Preocupación Menor' en la Lista Roja de la UICN, aunque algunas poblaciones están en recuperación después de la prohibición de la caza comercial."
         }
     },
     "Morona Santiago": {
-        "GuacamayoRojo": {
-            "NombreComun": "Guacamayo Rojo",
+        "GuacamayoBandera": {
+            "NombreComun": "Guacamayo Bandera",
             "NombreCientifico": "Ara macao.",
             "Habitat": "Bosques tropicales húmedos, selvas y áreas con abundante vegetación densa.",
             "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, nueces, semillas y flores.",
@@ -171,7 +171,7 @@
             "Habitat": "Selvas tropicales, bosques subtropicales, humedales y sabanas, prefiriendo áreas con vegetación densa y acceso a agua.",
             "Alimentacion": "Es carnívoro, alimentándose principalmente de grandes mamíferos, reptiles y peces.",
             "EsperanzaVida": "En la naturaleza, pueden vivir entre 12 y 15 años.",
-            "Amenazas": "Las principales amenazas incluyen la pérdida de hábitat debido a la deforestación, la caza furtiva y el conflicto con humanos.",
+            "Amenazas": "Pérdida de hábitat debido a la deforestación, la caza furtiva y el conflicto con humanos.",
             "EstadoConservacion": "Está clasificado como 'Casi Amenazado' en la Lista Roja de la UICN debido a la disminución de su población y la fragmentación de su hábitat."
         }
     },
@@ -187,14 +187,14 @@
         }
     },
     "Pastaza": {
-        "GuacamayoBandera": {
-            "NombreComun": "Guacamayo Bandera",
-            "NombreCientifico": "Ara macao.",
-            "Habitat": "Bosques tropicales húmedos, selvas y áreas con abundante vegetación densa.",
-            "Alimentacion": "Es frugívoro, alimentándose principalmente de frutas, nueces, semillas y flores.",
-            "EsperanzaVida": "En la naturaleza, pueden vivir entre 40 y 50 años.",
-            "Amenazas": "Pérdida de hábitat debido a la deforestación, la captura para el comercio de mascotas y la caza.",
-            "EstadoConservacion": "Está clasificado como 'Preocupación Menor' en la Lista Roja de la UICN, aunque algunas subpoblaciones están en declive debido a las amenazas mencionadas."
+        "PuercosSahinos": {
+            "NombreComun": "Puercos Sahinos",
+            "NombreCientifico": "Tayassuidae.",
+            "Habitat": "Selvas tropicales y bosques densos.",
+            "Alimentacion": "Son omnívoros, alimentándose de frutas, raíces, hojas, insectos y pequeños vertebrados.",
+            "EsperanzaVida": "Puede variar dependiendo de las condiciones del hábitat y las amenazas.",
+            "Amenazas": "Pérdida de hábitat debido a la deforestación y la caza furtiva para obtener su carne.",
+            "EstadoConservacion": "Los Tayassuidae en general tienen diferentes estados de stán clasificadas como 'Preocupación Menor', mientras que otras están en peligro debido a la caza y la pérdida de hábitat."
         }
     },
     "Pichincha": {

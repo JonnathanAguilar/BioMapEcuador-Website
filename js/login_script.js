@@ -5,11 +5,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const errorMessage = document.getElementById('error-message');
 
     if (username === 'admin' && password === 'admin123') {
-        alert('Login successful!');
+        alert('¡Ingreso exitoso!');
         errorMessage.style.display = 'none';
-        // Redirect or perform any action on successful login
     } else {
-        errorMessage.textContent = 'Invalid username or password!';
+        errorMessage.textContent = '¡Usuario y/o contraseña incorrecto!';
         errorMessage.style.display = 'block';
     }
 });

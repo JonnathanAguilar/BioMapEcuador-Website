@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioMap Ecuador - Trivia</title>
+    <link rel="stylesheet" href="css/trivia_style.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Trivia de Conservación</h1>
+        <div id="question-container">
+            <h2 id="question"></h2>
+            <div id="options">
+                <button class="option" id="optionA"></button>
+                <button class="option" id="optionB"></button>
+                <button class="option" id="optionC"></button>
+            </div>
+        </div>
+        <div id="feedback"></div>
+        <div id="progress"></div>
+        <div id="timer">Tiempo restante: <span id="countdown">60</span> segundos</div>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="js/trivia_script.js"></script>
+</body>
+</html>

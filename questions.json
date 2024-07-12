@@ -1,0 +1,62 @@
+{
+    "¿Cuál es el nombre científico del cóndor andino?": {
+        "OpcionA": "Andigena laminirostris",
+        "OpcionB": "Inia geoffrensis",
+        "OpcionC": "Vultur gryphus",
+        "OpcionCorrecta": "Vultur gryphus"
+    },
+    "¿En qué tipo de hábitat se encuentra principalmente el oso de anteojos?": {
+        "OpcionA": "Aguas costeras poco profundas",
+        "OpcionB": "Bosques nublados y montañosos",
+        "OpcionC": "Ríos, arroyos y lagos de agua dulce",
+        "OpcionCorrecta": "Bosques nublados y montañosos"
+    },
+    "¿Cuántos años puede vivir una tortuga gigante de Galápagos en la naturaleza?": {
+        "OpcionA": "Pueden vivir más de 100 años",
+        "OpcionB": "En la naturaleza, pueden vivir entre 12 y 15 años",
+        "OpcionC": "En la naturaleza, pueden vivir hasta 30 años",
+        "OpcionCorrecta": "Pueden vivir más de 100 años"
+    },
+    "¿Qué tipo de alimentación tiene el mono aullador?": {
+        "OpcionA": "Es carnívoro, alimentándose principalmente de grandes mamíferos, reptiles y peces",
+        "OpcionB": "Se alimenta principalmente de carroña",
+        "OpcionC": "Es herbívoro, alimentándose de hojas, frutas, flores y brotes",
+        "OpcionCorrecta": "Es herbívoro, alimentándose de hojas, frutas, flores y brotes"
+    },
+    "¿Cuál es el nombre científico del jaguar?": {
+        "OpcionA": "Panthera onca",
+        "OpcionB": "Tapirus pinchaque",
+        "OpcionC": "Tremarctos ornatus",
+        "OpcionCorrecta": "Panthera onca"
+    },
+    "¿Dónde habita principalmente el manatí del Caribe?": {
+        "OpcionA": "Aguas costeras poco profundas, ríos y estuarios",
+        "OpcionB": "Ríos, arroyos y lagos de agua dulce",
+        "OpcionC": "Bosques nublados y montañosos",
+        "OpcionCorrecta": "Aguas costeras poco profundas, ríos y estuarios"
+    },
+    "¿Qué principal amenaza enfrenta el lobo del páramo?": {
+        "OpcionA": "Caza histórica, colisiones con embarcaciones",
+        "OpcionB": "Pérdida y fragmentación de hábitat debido a la expansión agrícola y ganadera",
+        "OpcionC": "Pérdida de hábitat debido a la deforestación",
+        "OpcionCorrecta": "Pérdida y fragmentación de hábitat debido a la expansión agrícola y ganadera"
+    },
+    "¿Cuántos años puede vivir en la naturaleza un guacamayo bandera?": {
+        "OpcionA": "Entre 40 y 50 años",
+        "OpcionB": "Mas de 50 años",
+        "OpcionC": "Menos de 10 años",
+        "OpcionCorrecta": "Entre 40 y 50 años"
+    },
+    "¿Qué tipo de hábitat prefiere el tapir de montaña?": {
+        "OpcionA": "Aguas costeras poco profundas",
+        "OpcionB": " Bosques tropicales y subtropicales",
+        "OpcionC": " Bosques montanos, páramos y selvas nubladas",
+        "OpcionCorrecta": " Bosques montanos, páramos y selvas nubladas"
+    },
+    "¿En qué provincia se encuentra principalmente el delfín rosado?": {
+        "OpcionA": "Loja",
+        "OpcionB": "Orellana",
+        "OpcionC": "Esmeraldas",
+        "OpcionCorrecta": "Esmeraldas"
+    }
+}
