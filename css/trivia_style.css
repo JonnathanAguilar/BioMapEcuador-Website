@@ -1,27 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f0f0;
+    background-image: url(https://img.freepik.com/vector-gratis/paisaje-bosque-dibujos-animados-fondo-naturaleza-fin-juegos-computadora-arbol-naturaleza-verde-planta-al-aire-libre-madera-entorno-natural_1284-41524.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1720310400&semt=ais_user);
+    color: #27633B;
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #27633B;
+    z-index: 1000;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 0.5em;
+}
+
+main {
+    margin-top: 60px;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    width: 100%;
+    padding-top: 100px; /* Añade espacio para el header */
+    padding-bottom: 100px; /* Añade espacio para el footer */
 }
 
 .container {
     text-align: center;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 5px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 100%;
 }
 
 h1 {
-    color: #333;
+    color: #323B60;
 }
 
 #question {
@@ -54,4 +93,14 @@ h1 {
 #timer {
     margin-top: 20px;
     font-weight: bold;
+}
+
+footer {
+    background-color: #323B60;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
